@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 15, 34);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 400px;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.searchBar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 340px;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchInput {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.addToDo {
+    display: flex;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.buttonToDo {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(65, 184, 134);
+    border: none;
+    color: aliceblue;
+    font-size: 40px;
+    transition-duration: 0.4s;
+}
+
+.buttonToDo:hover {
+    background-color: rgb(35, 128, 89);
+}
+
+.selectMenu {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    margin-left: 40px;
+    background-color: rgb(85, 146, 138);
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 50px;
+    font-style: italic;
+    appearance: none;
+}
+
+.optionMenu {
+    display: flex;
+    background-color: rgb(212, 214, 216);
+}
+
+.output {
+    display: flex;
+    background-color: aliceblue;
+    height: 70px;
+    width: 630px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+
+.output:hover {
+    background-color: rgb(203, 206, 209);
+}
+
+.buttonDelToDo {
+    position: absolute;
+    margin-left: 530px;
+    height: 40px;
+    width: 40px;
+}
+
+.imgDelete {
+    width: 35px;
+    height: 35px;
+}
+
+.buttonDone {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 580px;
+}
+
+.imgDone {
+    border-radius: 3px;
+    height: 35px;
+    width: 37px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+</body>
+<div class="container" id="container">
+  <!--SearchBar elements-->
+  <div class="topContainer">
+    <div class="searchContainer">
+      <div class="searchBar">
+        <input type="text" id="searchInput" class="searchInput">
+      </div>
+      <div class="addToDo">
+        <button class="buttonToDo" id="buttonToDo" onclick="addToDo()">+</button>
+      </div>
+    </div>
+    <!--Menu-->
+    <div class="menu">
+      <select class="selectMenu" name="menuToDo" id="selectMenu" onchange="onChangeElementsFunction()">
+        <option id="optionActive" class="optionMenu" value="active">Активные</option>
+        <option id="optionDoned" class="optionMenu" value="done">Завершённые</option>
+        <option id="optionDeleted" class="optionMenu" value="delete">Удалённые</option>
+      </select>
+    </div>
+  </div>
+  <div id="containerOutput" class="containerOutput">
+    <!-- <div id="output" class="output">Элемент в HTML написан явно
+      <button id="buttonDelToDo" class="buttonDelToDo" onclick="delToDo()">
+        <img class="imgDelete"
+          src="https://png.pngitem.com/pimgs/s/31-314793_free-delete-icon-png-edit-and-delete-icons.png" alt="">
+      </button>
+      <button id="buttonDone" class="buttonDone" onclick="doneToDo()">
+        <img class="imgDone"
+          src="https://st3.depositphotos.com/20524830/34673/v/600/depositphotos_346730160-stock-illustration-yes-icon-this-flat-rounded.jpg"
+          alt="">
+      </button>
+    </div> -->
+  </div>
+</div>
+
+</html>
